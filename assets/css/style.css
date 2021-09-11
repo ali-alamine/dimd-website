@@ -1492,19 +1492,19 @@ select.form-control {
 }
 
 .main-nav nav .navbar-nav .nav-item a.active {
-  color: #1f12fd;
+  color: #FF7000;
 }
 
 .main-nav nav .navbar-nav .nav-item a.active:hover {
-  color: #1f12fd;
+  color: #FF7000;
 }
 
 .main-nav nav .navbar-nav .nav-item:hover a {
-  color: #1f12fd;
+  color: #FF7000;
 }
 
 .main-nav nav .navbar-nav .nav-item:hover a.active {
-  color: #1f12fd;
+  color: #FF7000;
 }
 
 .main-nav nav .navbar-nav .nav-item:hover a.dropdown-toggle:after {
@@ -2543,7 +2543,7 @@ select.form-control {
   left: 0;
   top: -3px;
   font-size: 20px;
-  color: #1f12fd;
+  color: #940811;
 }
 
 .service-card {
