@@ -1015,7 +1015,8 @@ select.form-control {
 }
 
 .page-bg-1 {
-  background-image: url(../images/page-bg/page-bg-1.jpg);
+  /* background-image: url(../images/page-bg/page-bg-1.jpg); */
+  background-image: url(../images/ourPresenceMap.png);
 }
 
 .page-bg-2 {
@@ -2606,7 +2607,7 @@ select.form-control {
       -ms-flex-pack: center;
           justify-content: center;
   font-size: 65px;
-  background-color: #f6f6ff;
+  /* background-color: #f6f6ff; */
   color: #1f12fd;
   margin-bottom: 25px;
 }
