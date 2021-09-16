@@ -53,6 +53,7 @@
 /*************** IMPORT FONTS ***************/
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
 /*************** COLOR VARIABLE ***************/
 /*************** DEFAULT CSS ***************/
 body {
@@ -363,6 +364,7 @@ button:active {
 }
 
 .main-btn.main-btn-small {
+  
   padding: 10px 15px;
   font-size: 13px;
 }
@@ -503,15 +505,21 @@ button:active {
 }
 
 .section-title small {
+  font-family: 'Montserrat', sans-serif;
   display: inline-block;
-  font-size: 18px;
+  font-size: 25px;
   margin-bottom: 15px;
-  font-weight: 500;
-  color: #ff7000;
+  font-weight: 700;
+  color: #B51C1C;
 }
-
+.about-us-sub-titles{
+  margin-bottom: 5px !important;
+  font-size:25px !important;
+  color: #676666 !important;
+}
 .section-title h2 {
-  font-size: 36px;
+  font-size: 30px;
+  color: #B51C1C;
   font-weight: 700;
   margin-bottom: 16px;
   position: relative;
@@ -546,6 +554,7 @@ button:active {
 }
 
 .section-title.section-title-white small {
+  font-family:'poppins';
   color: #fff;
 }
 
@@ -3116,7 +3125,7 @@ select.form-control {
   position: relative;
   font-size: 16px;
   margin-bottom: 10px;
-  color: #000;
+  color: #676666;
   list-style: none;
   padding-left: 30px;
   -webkit-box-flex: 0;
@@ -3266,8 +3275,8 @@ select.form-control {
   background-color: #ff7000;
 }
 .about-us-left-container{
-  height: 600px !important;
-  background-image: url(../images/backgrounds/about-us-img.jpg);
+  height: 505px !important;
+  background-image: url(../images/backgrounds/about-us-img.png);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
