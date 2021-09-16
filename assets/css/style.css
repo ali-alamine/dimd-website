@@ -3265,7 +3265,13 @@ select.form-control {
   position: relative;
   background-color: #ff7000;
 }
-
+.about-us-left-container{
+  height: 600px !important;
+  background-image: url(../images/backgrounds/about-us-img.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
 .service-card-image-2:before {
   content: "";
   background-image: url(../images/frame-1.png);
