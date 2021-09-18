@@ -507,7 +507,7 @@ button:active {
 .section-title small {
   font-family: 'Montserrat', sans-serif;
   display: inline-block;
-  font-size: 25px;
+  font-size: 18px;
   margin-bottom: 15px;
   font-weight: 700;
   color: #B51C1C;
@@ -3275,11 +3275,26 @@ select.form-control {
   background-color: #ff7000;
 }
 .about-us-left-container{
-  height: 505px !important;
+  height: 489px !important;
   background-image: url(../images/backgrounds/about-us-img.png);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
+}
+#our_presence_section{
+  background-image: url(../images/backgrounds/map-background.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  min-height: 575px !important;
+  /* height: 570px; */
+}
+.override-footer-titles{
+  color: darkgray !important;
+}
+.override-footer-subtitles li a, p a{
+  color: lightgrey !important;
 }
 .service-card-image-2:before {
   content: "";
