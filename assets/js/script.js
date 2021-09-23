@@ -33,7 +33,7 @@ jQuery(function ($) {
     $("#scrolltop").on('click', function () {
         $("html").animate({
             scrollTop: 0
-        }, 2000);
+        }, 100);
         return false;
     });
 

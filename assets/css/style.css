@@ -1103,6 +1103,7 @@ select.form-control {
 }
 
 .blob-1 {
+  background: white !important;
   left: 20%;
   -webkit-animation: osc-l 2.5s ease infinite;
   animation: osc-l 2.5s ease infinite;
@@ -1112,7 +1113,8 @@ select.form-control {
   left: 80%;
   -webkit-animation: osc-r 2.5s ease infinite;
   animation: osc-r 2.5s ease infinite;
-  background: #ff7000;
+  background: #B51C1C;
+  /* background: #ff7000; */
 }
 
 @-webkit-keyframes osc-l {
@@ -2644,7 +2646,7 @@ select.form-control {
   background-color: #fff;
   top: 0;
   -webkit-box-shadow: 0px 9px 54px 0px rgba(32, 32, 32, 0.1);
-  box-shadow: 0px 9px 54px 0px rgba(32, 32, 32, 0.1);
+  box-shadow: -1px 20px 6px 2px rgb(0 0 0 / 10%);
 }
 
 .navbar-area.is-sticky .main-nav nav .navbar-nav .nav-item a {
@@ -3153,6 +3155,7 @@ select.form-control {
   padding: 30px;
   position: relative;
   overflow: hidden;
+  margin-left: 11px;
 }
 
 .service-card:before {
@@ -3160,7 +3163,8 @@ select.form-control {
   width: 50px;
   height: 50px;
   border-radius: 50%;
-  background-color: #ff7000;
+  /* background-color: #ff7000; */
+  background-color: rgb(216, 216, 216);
   position: absolute;
   left: 0;
   top: 0;
@@ -3288,13 +3292,13 @@ select.form-control {
   background-repeat: no-repeat;
   background-attachment: fixed;
   min-height: 575px !important;
-  /* height: 570px; */
+  margin-top: 59px;
 }
 .override-footer-titles{
-  color: darkgray !important;
+  color: #7a7878 !important;
 }
 .override-footer-subtitles li a, p a{
-  color: lightgrey !important;
+  color: #7a7979 !important
 }
 .service-card-image-2:before {
   content: "";
@@ -5085,7 +5089,7 @@ select.form-control {
 }
 
 .review-star-group span {
-  color: #767676;
+  /* color: #.override-footer-subtitles li a, p a676; */
   font-size: 15px;
   margin-top: 5px;
 }
