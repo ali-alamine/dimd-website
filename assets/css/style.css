@@ -3297,12 +3297,9 @@ select.form-control {
 .map-image-container{
   background-image: url(../images/backgrounds/map-presence.png);
   background-position: center;
-  background-size: cover;
+  background-size: contain;
   background-repeat: no-repeat;
-  /* background-attachment: fixed; */
-  min-height: 344px !important;
-  /* margin-top: 59px; */
-  margin-left: -22px;
+  min-height: 560px;
 }
 .override-footer-titles{
   color: #7a7878 !important;
