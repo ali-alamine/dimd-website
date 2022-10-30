@@ -344,10 +344,10 @@
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    /* background-attachment: fixed; */
-    min-height: 344px !important;
-    /* margin-top: 59px; */
-    margin-left: -22px;
+    min-height: 303px !important;
+    position: absolute;
+    left: 0;
+    right: 0;
   }
   #our_presence_section{
     padding-top: 40px;
